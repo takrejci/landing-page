@@ -1,6 +1,14 @@
 body {
   margin: 0px;
-  width: 80%;
+}
+.whole {
+  display: flex;
+  flex-direction: column;
+  font-family: Roboto;
+}
+
+.whole > * {
+  padding: 0px 60px 0px 60px;
 }
 
 .header {
@@ -8,6 +16,7 @@ body {
   justify-content: space-between;
   background-color: #1f2937;
   color: white;
+  padding: 60px;
 }
 .headertext {
 }
@@ -20,9 +29,44 @@ ul {
 
 .body1 {
   display: flex;
+  padding: 60px;
+  gap: 20px;
+  background-color: #1f2937;
+  color: white;
 }
 
 .body1left {
   display: flex;
   flex-direction: column;
+  flex: 1;
+}
+h1 {
+  font-size: 48px;
+  font-weight: 900;
+}
+p {
+  font-size: 16px;
+  font-weight: lighter;
+}
+h1,
+p {
+  margin: 0;
+}
+
+.image {
+  display: flex;
+  flex: 1;
+  background-color: gray;
+  justify-content: center;
+  align-items: center;
+}
+
+button {
+  width: fit-content;
+  background-color: #3882f6;
+  color: white;
+  padding: 8px 24px 8px 24px;
+  border-radius: 10px;
+  border-style: none;
+  border-color: #1f2937;
 }
