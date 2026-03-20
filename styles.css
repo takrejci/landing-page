@@ -1,0 +1,28 @@
+body {
+  margin: 0px;
+  width: 80%;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  background-color: #1f2937;
+  color: white;
+}
+.headertext {
+}
+ul {
+  display: flex;
+
+  list-style: none;
+  gap: 12px;
+}
+
+.body1 {
+  display: flex;
+}
+
+.body1left {
+  display: flex;
+  flex-direction: column;
+}
